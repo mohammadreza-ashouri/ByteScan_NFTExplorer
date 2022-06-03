@@ -1,0 +1,20 @@
+.wrraper {
+  max-height: 90vh;
+
+  > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  padding-left: 20px;
+  position: absolute;
+  z-index: 100;
+  img {
+    max-width: 250px;
+  }
+}

@@ -1,0 +1,25 @@
+@import 'Variables';
+
+body,
+html {
+  margin: 0;
+  height: 100vh;
+  font-family: Helvetica;
+}
+
+body > #root {
+  height: 100%;
+}
+
+div {
+  display: block;
+  box-sizing: border-box;
+}
+
+.walletconnect-qrcode__base {
+  background-color: transparent !important;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "ByteScan NFT Explorer",
+  "name": "ByteScan NFT Explorer",
+  "icons": [
+    {
+      "src": "./images/favicon/Property 1=02.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}

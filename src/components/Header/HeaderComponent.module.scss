@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  min-height: 60px;
+  align-items: stretch;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #000000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--container_width);
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.mainTitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.headerLink {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
